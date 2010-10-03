@@ -16,6 +16,7 @@
 * Chief Visionary at [Peritor, Berlin](http://peritor.com)
 * [@roidrage](http://twitter.com/roidrage)
 * <http://paperplanes.de>
+* CouchDB User
 
 !SLIDE center
 
@@ -45,3 +46,24 @@
 !SLIDE center
 
 ![Lotus Notes](lotus_notes.png)
+
+!SLIDE center
+
+# What is a Document? #
+
+![Document](document.png)
+
+!SLIDE bullets incremental
+
+* A user
+* An email
+* A text document
+* A calendar entry
+* A tweet
+
+!SLIDE bullets incremental
+
+## A self-contained, ##
+## semi-structured piece of data. ##
+
+* Metadata included

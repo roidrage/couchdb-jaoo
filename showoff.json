@@ -1,1 +1,8 @@
-{ "name": "Building Web Applications with just a Browser and CouchDB", "sections": [ {"section":"01_intro"} ]}
+{
+  "name": "Building Web Applications with just a Browser and CouchDB",
+  "sections": [
+    {"section": "01_intro"},
+    {"section": "02_made_of_the_web"},
+    {"section": "03_btree"},
+    {"section": "04_localmost"}
+  ]}
