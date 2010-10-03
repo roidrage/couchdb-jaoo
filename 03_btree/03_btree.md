@@ -6,9 +6,11 @@
 <a href="http://twitter.com/bitdiddle/status/19645939355">Anonymous Tweeter</a>
 </p>
 
-!SLIDE
+!SLIDE center
 
 # The B-Tree #
+
+![B-Tree](btree.png)
 
 !SLIDE
 
