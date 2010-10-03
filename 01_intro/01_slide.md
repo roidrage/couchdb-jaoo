@@ -1,7 +1,15 @@
-!SLIDE 
-# Building Web Applications with just a Browser and CouchDB #
+!SLIDE center
+
+![CouchDB](couchdb-logo.png)
+
+## Building Web Applications with your Browser and CouchDB ##
+
+!SLIDE
+
+## A practical introduction to the philosophies behind CouchDB ##
 
 !SLIDE bullets incremental
+
 # $(this) #
 
 * Mathias Meyer
