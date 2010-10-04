@@ -18,7 +18,8 @@
 
 !SLIDE
 
-## Data is always appended, never updated. ##
+## Data is always appended, ##
+## never updated. ##
 
 !SLIDE
 
@@ -38,3 +39,82 @@
 * Keys can be any valid JSON object
 * Values can be documents
 * Custom objects too
+
+!SLIDE bullets incremental
+
+# Map/Reduce #
+
+* Map emits the desired lookup keys
+* Reduce aggregates the results
+
+!SLIDE javascript
+
+# Map Phase #
+
+## Find by Name ##
+
+    @@@ javascript
+    function(doc) {
+      emit(doc.name, nil);
+    }
+
+!SLIDE javascript
+
+## Find by tag ##
+
+    @@@ javascript
+    function(doc) {
+      for (var index in doc.tags) {
+        emit(doc.tags[index], 1);
+      }
+    }
+
+!SLIDE javascript small
+
+## Find by tag ##
+
+    @@@ javascript
+    function(keys, values, rereduce) {
+      var sum = 0;
+      for (var i = 0; i < values.length; i++) {
+         sum += values[i];
+      }
+      return sum;
+    }
+
+!SLIDE smaller
+
+## Querying Views ##
+
+    /jaoo/_design/conferences/_view/by_name?key="JAOO 2010"
+
+!SLIDE bullets incremental
+
+# Design Documents #
+
+* Collect map/reduce functions
+* Name convention: `_design/<document>`
+* Regular JSON document
+
+!SLIDE javascript small
+
+# Design Documents #
+
+    @@@ javascript
+    {
+      "_id": "_design/conferences"
+      "views": {
+        "by_name": {
+          "map": "function(doc)...",
+          "reduce": "function(keys, values, rereduce)"
+        }
+      }
+    }
+
+!SLIDE bullets incremental
+
+# Views #
+
+* Are only updated on read
+* Are always read from disk
+* Can fetch ranges too

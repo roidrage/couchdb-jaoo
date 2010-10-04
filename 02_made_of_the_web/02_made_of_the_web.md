@@ -89,7 +89,9 @@
       "name": "JAOO 2010",
       "type": "conference",
       "starts_at": "2010/10/03 09:00:00 +0000",
-      "ends_at": "2010/10/08 17:00:00 +0000"
+      "ends_at": "2010/10/08 17:00:00 +0000",
+      "tags": ["software", "agile", "cloud"]
+            
     }
 
 !SLIDE
@@ -116,6 +118,6 @@
 
 ## Documents are Resources too ##
 
-!SLIDE code small
+!SLIDE code smaller
 
     GET /jaoo/eb28b751a33d1bf9d7dfffd6700006d5/logo.gif
