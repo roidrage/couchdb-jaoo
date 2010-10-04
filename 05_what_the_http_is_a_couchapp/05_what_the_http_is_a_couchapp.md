@@ -142,7 +142,7 @@
       send('</body></html>')
     }
 
-!SLIDE code small
+!SLIDE code smaller
 
     GET /jaoo/_design/conferences/_list/title/by_name?key="JAOO 2010"
 

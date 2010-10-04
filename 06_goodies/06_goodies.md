@@ -60,7 +60,7 @@
       }
     }
 
-!SLIDE
+!SLIDE smaller
 
     GET /jaoo/_changes?filter=conferences/only-conferences
 
