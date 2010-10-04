@@ -2,9 +2,9 @@
 
 ## Design Documents are awkward ##
 
-!SLIDE
+!SLIDE bullets
 
-# Tools to help you get started #
+## Tools to make it less awkward ##
 
 * [CouchApp](http://couchapp.org) (Python)
 * [Soca](http://github.com/quirkey/soca) (Ruby)
