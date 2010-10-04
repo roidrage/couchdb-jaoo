@@ -46,7 +46,7 @@
       }
     }
 
-!SLIDE
+!SLIDE javascript small
 
 ## Filters are part of design documents. ##
 
@@ -54,7 +54,7 @@
     {
       "_id": "_design/conferences",
       "filters": {
-        "only-conferences": "function(doc, req) {...}""
+        "only-conferences": "function(doc, req) {...}"
       }
     }
 
