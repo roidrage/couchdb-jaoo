@@ -116,7 +116,7 @@
 
 !SLIDE smaller 
 
-## Documents are Resources too ##
+## Attachments are Resources too ##
 
 !SLIDE code smaller
 

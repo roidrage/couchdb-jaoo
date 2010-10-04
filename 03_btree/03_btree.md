@@ -55,7 +55,7 @@
 
     @@@ javascript
     function(doc) {
-      emit(doc.name, nil);
+      emit(doc.name, null);
     }
 
 !SLIDE javascript

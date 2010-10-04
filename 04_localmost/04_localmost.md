@@ -5,3 +5,30 @@
 <p class="caption">
 Mario Scheliga
 </p>
+
+!SLIDE
+
+## Offline by default. ##
+
+!SLIDE bullets incremental
+
+## Runs on ##
+
+* Your laptop
+* Your mobile
+* Your server
+* The cloud
+
+!SLIDE bullets incremental
+
+## Syncs ##
+
+* between all of them!
+
+!SLIDE bullets incremental
+
+# P2P-like Replication #
+
+* Replicate any database
+* To and from any database
+* At any point in time
