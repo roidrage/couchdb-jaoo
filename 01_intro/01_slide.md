@@ -22,6 +22,10 @@
 
 # I like automating things. #
 
+<p class="caption">
+  Me, 2003 - Open End
+</p>
+
 !SLIDE center
 
 ![Scalarium](scalarium.png)

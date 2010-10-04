@@ -113,6 +113,12 @@
       }
     }
 
+!SLIDE smaller
+
+## Accessing show views ##
+
+    GET /jaoo/_design/conferences/_show/title/e51a33d1bf9...
+
 !SLIDE bullets incremental
 
 ## List functions ##
@@ -120,6 +126,24 @@
 * Transform view results
 * Filter view results
 * Into e.g. CSV, XML, HTML
+
+!SLIDE javascript smaller
+
+## List functions ##
+
+    @@@ javascript
+    function(header, request) {
+      var row;
+      send('<html><head><title>Conferences</title></head><body>')
+      while (row = getRow()) {
+        send('<h1>' + row.value.name + '</h1>')
+      }
+      send('</body></html>')
+    }
+
+!SLIDE code small
+
+    GET /jaoo/_design/conferences/_list/title/by_name?key="JAOO 2010"
 
 !SLIDE
 
@@ -142,7 +166,22 @@
 
 ## Single design document. ##
 
-!SLIDE javascript
+!SLIDE javascript smaller
 
     @@@ javascript
+    {
+      "lists": {
+        "title": "function(header, request) {}"
+      },
+      "shows": {
+        "title-row", "function(doc, request) {}"
+      },
+      "validate_doc_update":
+          "function(newDocument, savedDocument, userCtx)"
+    }
 
+!SLIDE bullets incremental
+
+## Embed CommonJS Modules ##
+
+# TODO #
