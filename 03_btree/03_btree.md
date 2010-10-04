@@ -1,6 +1,6 @@
 !SLIDE
 
-## "CouchDB is just a B-Tree and a Transformation Engine." ##
+## ”CouchDB is just a B-Tree and a Transformation Engine.“ ##
 
 <p class="caption">
 <a href="http://twitter.com/bitdiddle/status/19645939355">Anonymous Tweeter</a>
@@ -117,4 +117,5 @@
 
 * Are only updated on read
 * Are always read from disk
+* Are rebuilt when design documents are updated
 * Can fetch ranges too

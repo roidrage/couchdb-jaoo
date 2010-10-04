@@ -1,6 +1,6 @@
 !SLIDE
 
-## "Localhost is local most." ##
+## ”Localhost is local most.“ ##
 
 <p class="caption">
 Mario Scheliga
@@ -17,7 +17,7 @@ Mario Scheliga
 * Your laptop
 * Your mobile
 * Your server
-* The cloud
+* The Cloud™
 
 !SLIDE bullets incremental
 
@@ -32,3 +32,7 @@ Mario Scheliga
 * Replicate any database
 * To and from any database
 * At any point in time
+
+!SLIDE bullets incremental
+
+## Even filter data before replicating. ##
