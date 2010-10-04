@@ -37,6 +37,8 @@
 
 !SLIDE javascript small
 
+# Filters #
+
     @@@ javascript
     function(doc, req) {
       if(doc.type == 'conference') {

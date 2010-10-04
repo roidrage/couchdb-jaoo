@@ -134,6 +134,7 @@
     @@@ javascript
     function(header, request) {
       var row;
+      start(headers:{'Content-Type': 'text/html'});
       send('<html><head><title>Conferences</title></head><body>')
       while (row = getRow()) {
         send('<h1>' + row.value.name + '</h1>')
