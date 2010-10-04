@@ -18,6 +18,10 @@
 * <http://paperplanes.de>
 * CouchDB User
 
+!SLIDE
+
+# I like automating things. #
+
 !SLIDE center
 
 ![Scalarium](scalarium.png)
@@ -27,6 +31,10 @@
 !SLIDE
 
 # What is CouchDB? #
+
+!SLIDE center
+
+![Jan Lehnardt](janl.jpg)
 
 !SLIDE bullets incremental
 

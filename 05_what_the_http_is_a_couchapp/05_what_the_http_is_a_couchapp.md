@@ -129,7 +129,7 @@
 
 ## Just another CouchDB document. ##
 
-!SLIDE
+!SLIDE bullets incremental
 
 ## Combines ##
 
@@ -141,3 +141,4 @@
 !SLIDE
 
 ## Single design document. ##
+
