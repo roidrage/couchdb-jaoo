@@ -91,6 +91,7 @@
 
     @@@ javascript
     {
+      "_id": "_design/conferences",
       "updates": {
         "in-place": "function(doc, req) {...}"
       }
