@@ -32,6 +32,10 @@
 
 ## [Cloud-Management and -Deployment for Ruby, PHP and Java](http://scalarium.com) ##
 
+!SLIDE center
+
+![CouchDB](couchdb-logo.png)
+
 !SLIDE
 
 # What is CouchDB? #

@@ -64,3 +64,35 @@
 
     GET /jaoo/_changes?filter=conferences/only-conferences
 
+!SLIDE bullets incremental
+
+# Update Handlers #
+
+* Update documents without fetching them first
+
+!SLIDE javascript
+
+# Update Handlers #
+
+    @@@ javascript
+    function(doc, req) {
+      var field = req.form.field;
+      var value = req.form.value;
+      var message = "set "+field+" to "+value;
+      doc[field] = value;
+      return [doc, message];
+    }
+
+!SLIDE javascript
+
+# Update Handlers #
+
+## Yep, they also go into the design document. ##
+
+    @@@ javascript
+    {
+      "updates": {
+        "in-place": "function(doc, req) {...}"
+      }
+    }
+
