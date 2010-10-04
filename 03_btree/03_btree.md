@@ -117,5 +117,5 @@
 
 * Are only updated on read
 * Are always read from disk
-* Are rebuilt when design documents are updated
+* Are invalidated when design documents are updated
 * Can fetch ranges too

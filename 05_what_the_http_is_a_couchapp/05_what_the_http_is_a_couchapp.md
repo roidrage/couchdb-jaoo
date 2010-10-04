@@ -24,7 +24,7 @@
 * Talk to the database directly (HTTP!)
 * Use JavaScript for the most part
 * Can be run anywhere
-* Can sync their data anywhere
+* Can sync anywhere, with their data
 
 !SLIDE bullets incremental
 
@@ -90,7 +90,7 @@
 * Into anything
 * E.g. HTML
 
-!SLIDE javascript
+!SLIDE javascript small
 
 ## Show functions ##
 
@@ -99,7 +99,7 @@
       return '<h1>' + doc.name + '</h1>';
     }
 
-!SLIDE javascript
+!SLIDE javascript small
 
 ## Show functions can manipulate the response ##
 
@@ -141,4 +141,8 @@
 !SLIDE
 
 ## Single design document. ##
+
+!SLIDE javascript
+
+    @@@ javascript
 
