@@ -34,6 +34,7 @@
 
 * Can filter updates from the changes feed
 * Read only what you're interested in
+* Read only what you're allowed to read
 
 !SLIDE javascript small
 
