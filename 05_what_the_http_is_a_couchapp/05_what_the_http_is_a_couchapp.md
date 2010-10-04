@@ -120,3 +120,24 @@
 * Transform view results
 * Filter view results
 * Into e.g. CSV, XML, HTML
+
+!SLIDE
+
+## So seriously, what's a CouchApp? ##
+
+!SLIDE
+
+## Just another CouchDB document. ##
+
+!SLIDE
+
+## Combines ##
+
+* Views
+* HTML templates
+* Show, list, validate functions
+* Assets
+
+!SLIDE
+
+## Single design document. ##

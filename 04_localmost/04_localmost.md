@@ -6,9 +6,11 @@
 Mario Scheliga
 </p>
 
-!SLIDE
+!SLIDE center
 
 ## Offline by default. ##
+
+![Offline](offline.png)
 
 !SLIDE bullets incremental
 
@@ -19,11 +21,12 @@ Mario Scheliga
 * Your server
 * The Cloud™
 
-!SLIDE bullets incremental
+!SLIDE center
 
 ## Syncs ##
+## between all of them! ##
 
-* between all of them!
+![Replication](replication.png)
 
 !SLIDE bullets incremental
 
