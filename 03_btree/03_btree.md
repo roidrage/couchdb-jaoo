@@ -37,8 +37,7 @@
 
 * Keys pointing to a value
 * Keys can be any valid JSON object
-* Values can be documents
-* Custom objects too
+* Values can be any valid JSON object
 
 !SLIDE bullets incremental
 
@@ -114,4 +113,3 @@
 * Are only updated on read
 * Are always read from disk
 * Are invalidated when design documents are updated
-* Can fetch ranges too

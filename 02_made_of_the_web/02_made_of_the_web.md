@@ -90,7 +90,6 @@
       "starts_at": "2010/10/03 09:00:00 +0000",
       "ends_at": "2010/10/08 17:00:00 +0000",
       "tags": ["software", "agile", "cloud"]
-            
     }
 
 !SLIDE
@@ -112,7 +111,7 @@
       }
     }
 
-!SLIDE smaller 
+!SLIDE small
 
 ## Attachments are Resources too ##
 
