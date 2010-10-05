@@ -36,7 +36,7 @@
 * Read only what you're interested in
 * Read only what you're allowed to read
 
-!SLIDE small
+!SLIDE
 
 # Filters #
 
