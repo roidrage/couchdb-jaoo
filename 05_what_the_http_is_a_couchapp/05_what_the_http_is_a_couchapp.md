@@ -32,17 +32,16 @@
 
 * Are design documents
 
-!SLIDE javascript
+!SLIDE
 
 ## Design Documents ##
 
-    @@@ javascript
     {
       "_id": "_design/conferences"
       "views": {
         "by_name": {
           "map": "function(doc)...",
-          "reduce": "function(keys, values, rereduce)"
+          "reduce": "function(keys...)"
         }
       }
     }
@@ -66,11 +65,10 @@
 * Validate documents before saving
 * Can prevent a write to the database
 
-!SLIDE javascript smaller
+!SLIDE smaller
 
 ## Validation functions ##
 
-    @@@ javascript
     function(newDocument, savedDocument, userCtx) {
       function require(field, message) {
         message = message || "Document must have a " + field;
@@ -131,8 +129,8 @@
 
     function(header, request) {
       var row;
-      start(headers:{'Content-Type': 'text/html'});
-      send('<html><head><title>Conferences</title></head><body>')
+      start(headers:{'Content-Type': 'text/html'})
+      send('<html><body>')
       while (row = getRow()) {
         send('<h1>' + row.value.name + '</h1>')
       }
@@ -141,7 +139,9 @@
 
 !SLIDE code smaller
 
-    GET /jaoo/_design/conferences/_list/title/by_name?key="JAOO 2010"
+    GET
+    /jaoo/_design/conferences/_list/title/by_name\
+          ?key="JAOO 2010"
 
 !SLIDE
 

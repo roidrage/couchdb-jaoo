@@ -85,7 +85,7 @@
 
 # Update Handlers #
 
-## Yep, they also go into the design document. ##
+## Yep, they also go in the design document. ##
 
     {
       "_id": "_design/conferences",
