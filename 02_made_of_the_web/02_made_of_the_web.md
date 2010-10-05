@@ -104,9 +104,9 @@
       "_attachments": {
         "logo.gif": {
           "content_type": "image/gif",
-            "revpos": 3,
-            "length": 1929,
-            "stub": true
+          "revpos": 3,
+          "length": 1929,
+          "stub": true
         }
       }
     }

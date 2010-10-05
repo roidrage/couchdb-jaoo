@@ -67,7 +67,7 @@
 
 # Update Handlers #
 
-* Update documents without fetching them first
+* Update documents without fetching them
 
 !SLIDE 
 

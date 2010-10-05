@@ -15,14 +15,14 @@
 
 # CouchApps #
 
-## Web Applications served with CouchDB ##
+## (Local) Web apps served with CouchDB ##
 
 !SLIDE bullets incremental
 
 ## CouchApps ##
 
 * Talk to the database directly (HTTP!)
-* Use JavaScript for the most part
+* Use JavaScript
 * Can be run anywhere
 * Can sync anywhere, with their data
 
@@ -129,7 +129,7 @@
 
     function(header, request) {
       var row;
-      start(headers:{'Content-Type': 'text/html'})
+      start(headers: {'Content-Type': 'text/html'})
       send('<html><body>')
       while (row = getRow()) {
         send('<h1>' + row.value.name + '</h1>')

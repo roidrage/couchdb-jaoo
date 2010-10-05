@@ -28,9 +28,7 @@
 
 !SLIDE center
 
-![Scalarium](scalarium.png)
-
-## [Cloud-Management and -Deployment for Ruby, PHP and Java](http://scalarium.com) ##
+<a href="http://scalarium.com"><img src="scalarium.png"/></a>
 
 !SLIDE center
 

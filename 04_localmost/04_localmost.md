@@ -38,4 +38,4 @@ Mario Scheliga
 
 !SLIDE bullets incremental
 
-## Even filter data before replicating. ##
+## Even filter data while replicating. ##
