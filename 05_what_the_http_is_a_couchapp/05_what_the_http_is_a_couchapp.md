@@ -90,20 +90,18 @@
 * Into anything
 * E.g. HTML
 
-!SLIDE javascript small
+!SLIDE small
 
 ## Show functions ##
 
-    @@@ javascript
     function(doc, request) {
       return '<h1>' + doc.name + '</h1>';
     }
 
-!SLIDE javascript small
+!SLIDE small
 
 ## Show functions can manipulate the response ##
 
-    @@@ javascript
     function(doc, request) {
       return {
         body: '<h1>' + doc.name + '</h1>',
@@ -127,11 +125,10 @@
 * Filter view results
 * Into e.g. CSV, XML, HTML
 
-!SLIDE javascript smaller
+!SLIDE smaller
 
 ## List functions ##
 
-    @@@ javascript
     function(header, request) {
       var row;
       start(headers:{'Content-Type': 'text/html'});
@@ -167,9 +164,8 @@
 
 ## Single design document. ##
 
-!SLIDE javascript smaller
+!SLIDE smaller
 
-    @@@ javascript
     {
       "lists": {
         "title": "function(header, request) {}"
@@ -181,8 +177,3 @@
           "function(newDocument, savedDocument, userCtx)"
     }
 
-!SLIDE bullets incremental
-
-## Embed CommonJS Modules ##
-
-# TODO #

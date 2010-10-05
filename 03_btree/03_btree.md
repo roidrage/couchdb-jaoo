@@ -47,13 +47,12 @@
 * Map emits the desired lookup keys
 * Reduce aggregates the results
 
-!SLIDE javascript
+!SLIDE 
 
 # Map Phase #
 
 ## Find by Name ##
 
-    @@@ javascript
     function(doc) {
       emit(doc.name, doc);
     }
@@ -62,7 +61,6 @@
 
 ## Find by tag ##
 
-    @@@ javascript
     function(doc) {
       for (var index in doc.tags) {
         emit(doc.tags[index], 1);
@@ -73,7 +71,6 @@
 
 ## Find by tag ##
 
-    @@@ javascript
     function(keys, values, rereduce) {
       var sum = 0;
       for (var i = 0; i < values.length; i++) {
@@ -100,7 +97,6 @@
 
 # Design Documents #
 
-    @@@ javascript
     {
       "_id": "_design/conferences"
       "views": {

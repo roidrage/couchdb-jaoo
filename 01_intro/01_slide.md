@@ -56,8 +56,8 @@
 
 # But what is it really? #
 
-* A Document-database
-* Heavily Inspired by Lotus Notes
+* A Document Database
+* Heavily inspired by Lotus Notes
 
 !SLIDE center
 

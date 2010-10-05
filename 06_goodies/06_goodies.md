@@ -36,11 +36,10 @@
 * Read only what you're interested in
 * Read only what you're allowed to read
 
-!SLIDE javascript small
+!SLIDE small
 
 # Filters #
 
-    @@@ javascript
     function(doc, req) {
       if(doc.type == 'conference') {
         return true;
@@ -49,11 +48,10 @@
       }
     }
 
-!SLIDE javascript small
+!SLIDE small
 
 ## Filters are part of design documents. ##
 
-    @@@ javascript
     {
       "_id": "_design/conferences",
       "filters": {
@@ -71,11 +69,10 @@
 
 * Update documents without fetching them first
 
-!SLIDE javascript
+!SLIDE 
 
 # Update Handlers #
 
-    @@@ javascript
     function(doc, req) {
       var field = req.form.field;
       var value = req.form.value;
@@ -84,13 +81,12 @@
       return [doc, message];
     }
 
-!SLIDE javascript
+!SLIDE 
 
 # Update Handlers #
 
 ## Yep, they also go into the design document. ##
 
-    @@@ javascript
     {
       "_id": "_design/conferences",
       "updates": {
