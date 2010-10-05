@@ -23,7 +23,7 @@
 # I like automating things. #
 
 <p class="caption">
-  Me, 2003 - Open End
+  Me, 2003 - Eternity
 </p>
 
 !SLIDE center

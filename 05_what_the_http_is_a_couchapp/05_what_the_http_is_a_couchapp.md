@@ -177,3 +177,20 @@
           "function(newDocument, savedDocument, userCtx)"
     }
 
+!SLIDE center
+
+### Examples ###
+
+![Swinger](swinger.png)
+
+!SLIDE center
+
+### Examples ###
+
+![CouchOne Website](couchone.png)
+
+!SLIDE center
+
+### Examples ###
+
+![Futon](futon.png)
